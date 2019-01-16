@@ -14,8 +14,9 @@
 
 ## Configuration
 After installing Jenkins, a config file will be created in `etc/sysconfig` called `jenkins`. This file contains all the configurations
-> $ vim /etc/sysconfig/jenkins
-you may find many variable
+  > $ vim /etc/sysconfig/jenkins
+
+you may find many variable:
   - `JENKINS_HOME` stands for the path where your source code pulled and built
   - `JENKINS_JAVA_CMD` stands for the same to `JAVA_HOME`
   - `JENKINS_USER` means the one who will startup Jenkins, should have the access permission to both `JENKINS_HOME` and `/var/log/jenkins`
