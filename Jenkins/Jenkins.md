@@ -56,22 +56,23 @@ In the left side, there's a menu.
   - General  
   Some common things like description.
   - Source Code Management  
-  We use `Git` to manage the version of source code.
-  Copy your `Repository URL` and create a `Credentials` with you repository account, make sure Git is ready on your server.
+  We use `Git` to manage the version of source code.  
+  Copy your `Repository URL` and create a `Credentials` with you repository account, make sure Git is ready on your server.  
   You can also specify the branch and the default is `*/master`.
   - Build  
   Contains steps of build, publish, restart and so on.  
   You can choose shell script or windows batch command to do that:
     > $mvn clean package  
     or  
-    > $npm run build: prod
+    > $npm run build: prod  
+
     or any other scripts.  
   
     If you have a server cluster, and seperate Jenkins from others, a Jenkins plugin `Publish Over SSH` is helpful for you.
 
 - Save and have the first try  
-  After finishing above, save it and will return to the dashboard.
-  Choose your first Jenkins project and click `Build now`, Jenkins will start to pull the source code, build, and publish.
+  After finishing above, save it and will return to the dashboard.  
+  Choose your first Jenkins project and click `Build now`, Jenkins will start to pull the source code, build, and publish.  
   Congratulations if you see the success message. If failed or unstable, check the configure of your Jenkins project.
 
 ---
