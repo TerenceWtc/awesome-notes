@@ -80,5 +80,5 @@ In the left side, there's a menu.
 
 
 TO DO:  
-[x] new a Jenkins item  
-[ ] ...
+- [x] new a Jenkins item  
+- [ ] ...
