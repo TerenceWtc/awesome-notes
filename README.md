@@ -4,8 +4,8 @@
 - Springboot
     - [JPA](https://github.com/TerenceWtc/documents/blob/master/Springboot/JPA/JPA.md)
 - Vue
-    - [Vue](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick+start/Quick+start.md)
-    
+    - [Vue](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20start/Quick%20start.md)
+
 TO DO:  
 - [ ] Vue
     - [ ] Component
