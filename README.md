@@ -1,2 +1,35 @@
 ## Guide
-- [Jenkins](https://github.com/TerenceWtc/documents/blob/master/Jenkins/Jenkins.md)
+- Linux
+    - [Jenkins](https://github.com/TerenceWtc/documents/blob/master/Linux/Jenkins/Jenkins.md)
+- Springboot
+    - [JPA](https://github.com/TerenceWtc/documents/blob/master/Springboot/JPA/JPA.md)
+
+TO DO:  
+- [ ] Vue
+    - [ ] Component
+    - [ ] Vuex
+    - [ ] Axios
+    - [ ] $set
+    - [ ] NCU
+    - [ ] Mock.js
+    - [ ] Svg
+    - [ ] International
+    - [ ] Lazy load
+    - [ ] Webpack (later...)
+- [ ] Linux
+    - [ ] Vim
+    - [ ] Solr
+    - [ ] Nutch
+    - [ ] Kafka
+    - [ ] Nginx
+    - [x] Jenkins
+    - [ ] ELK (later...)
+- [ ] Spring Boot
+    - [ ] Lombok
+    - [ ] JWT token
+    - [ ] JPA
+    - [ ] Log4j2
+    - [ ] Stream
+    - [ ] Lambda
+- [ ] SQL
+- [ ] ...
