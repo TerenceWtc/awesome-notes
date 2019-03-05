@@ -3,11 +3,13 @@
     - [Jenkins](https://github.com/TerenceWtc/documents/blob/master/Linux/Jenkins/Jenkins.md)
 - Springboot
     - [JPA](https://github.com/TerenceWtc/documents/blob/master/Springboot/JPA/JPA.md)
+    - [JWT](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/JWT.md)
 - Vue
     - [Vue](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20start/Quick%20start.md)
 
 TO DO:  
 - [ ] Vue
+    - [x] Quick Start
     - [ ] Component
     - [ ] Vuex
     - [ ] Axios
@@ -28,7 +30,9 @@ TO DO:
     - [ ] ELK (later...)
 - [ ] Spring Boot
     - [ ] Lombok
-    - [ ] JWT token
+    - [ ] JWT
+        - [x] JWT
+        - [ ] solution of refresh token
     - [ ] JPA
     - [ ] Log4j2
     - [ ] Stream
