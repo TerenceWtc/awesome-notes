@@ -3,9 +3,11 @@
     - [Jenkins](https://github.com/TerenceWtc/documents/blob/master/Linux/Jenkins/Jenkins.md)
 - Springboot
     - [JPA](https://github.com/TerenceWtc/documents/blob/master/Springboot/JPA/JPA.md)
-    - [JWT](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/JWT.md)
+    - JWT
+        - [JWT](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/JWT.md)
+        - [Solution of Refresh Token](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/Solution%20of%20Refresh%20Token.md)
 - Vue
-    - [Vue](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20start/Quick%20start.md)
+    - [Quick Start](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20start/Quick%20Start.md)
 
 TO DO:  
 - [ ] Vue
@@ -30,9 +32,9 @@ TO DO:
     - [ ] ELK (later...)
 - [ ] Spring Boot
     - [ ] Lombok
-    - [ ] JWT
+    - [x] JWT
         - [x] JWT
-        - [ ] solution of refresh token
+        - [x] Solution of Refresh Token
     - [ ] JPA
     - [ ] Log4j2
     - [ ] Stream
