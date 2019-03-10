@@ -6,10 +6,29 @@
     - JWT
         - [JWT](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/JWT.md)
         - [Solution of Refresh Token](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/Solution%20of%20Refresh%20Token.md)
+    - [Lambda](https://github.com/TerenceWtc/documents/blob/master/Springboot/Lambda/Lambda.md)
+    - [Stream](https://github.com/TerenceWtc/documents/blob/master/Springboot/Stream/Stream.md)
 - Vue
     - [Quick Start](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20start/Quick%20Start.md)
 
 TO DO:  
+- [ ] Linux
+    - [ ] Vim
+    - [ ] Solr
+    - [ ] Nutch
+    - [ ] Kafka
+    - [ ] Nginx
+    - [x] Jenkins
+    - [ ] ELK (later...)
+- [ ] Spring Boot
+    - [ ] Lombok
+    - [ ] JPA
+    - [x] JWT
+        - [x] JWT
+        - [x] Solution of Refresh Token
+    - [ ] Log4j2
+    - [x] Lambda
+    - [x] Stream
 - [ ] Vue
     - [x] Quick Start
     - [ ] Component
@@ -22,22 +41,5 @@ TO DO:
     - [ ] International
     - [ ] Lazy load
     - [ ] Webpack (later...)
-- [ ] Linux
-    - [ ] Vim
-    - [ ] Solr
-    - [ ] Nutch
-    - [ ] Kafka
-    - [ ] Nginx
-    - [x] Jenkins
-    - [ ] ELK (later...)
-- [ ] Spring Boot
-    - [ ] Lombok
-    - [x] JWT
-        - [x] JWT
-        - [x] Solution of Refresh Token
-    - [ ] JPA
-    - [ ] Log4j2
-    - [ ] Stream
-    - [ ] Lambda
 - [ ] SQL
 - [ ] ...
