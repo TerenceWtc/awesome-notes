@@ -9,6 +9,7 @@
         - [Solution of Refresh Token](https://github.com/TerenceWtc/documents/blob/master/Springboot/JWT/Solution%20of%20Refresh%20Token.md)
     - [Lambda](https://github.com/TerenceWtc/documents/blob/master/Springboot/Lambda/Lambda.md)
     - [Stream](https://github.com/TerenceWtc/documents/blob/master/Springboot/Stream/Stream.md)
+    - [Redis](https://github.com/TerenceWtc/documents/blob/master/Springboot/Redis/Redis.md)
 - Vue
     - [Quick Start](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20Start/Quick%20Start.md)
     - [Two-way Binding](https://github.com/TerenceWtc/documents/blob/master/Vue/Two%2Dway%20Binding/Two%2Dway%20Binding.md)
@@ -32,6 +33,7 @@ TO DO:
     - [ ] Log4j2
     - [x] Lambda
     - [x] Stream
+    - [x] Redis
 - [ ] Vue
     - [x] Quick Start
     - [ ] Two-way Binding
