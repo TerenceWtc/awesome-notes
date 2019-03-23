@@ -1,6 +1,7 @@
 ## Guide
 - Linux
     - [Jenkins](https://github.com/TerenceWtc/documents/blob/master/Linux/Jenkins/Jenkins.md)
+    - [Redis](https://github.com/TerenceWtc/documents/blob/master/Linux/Redis/Redis.md)
 - Springboot
     - [JPA](https://github.com/TerenceWtc/documents/blob/master/Springboot/JPA/JPA.md)
     - JWT
@@ -20,6 +21,7 @@ TO DO:
     - [ ] Kafka
     - [ ] Nginx
     - [x] Jenkins
+    - [x] Redis
     - [ ] ELK (later...)
 - [ ] Spring Boot
     - [ ] Lombok
