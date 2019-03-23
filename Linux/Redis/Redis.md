@@ -3,13 +3,13 @@
 ## Preparation
 - OS (CentOS 7)
 - [redis-5.0.4.tar.gz](http://download.redis.io/releases/redis-5.0.4.tar.gz)
-- gcc
+- gcc  
   > yum install gcc -y
 
 ## Installation
-- unzip
+- Unzip
   > tar -zxvf redis-5.0.4.tar.gz
-- build
+- Build
   > make MALLOC=libc
 
 ## Start & Shutdown
