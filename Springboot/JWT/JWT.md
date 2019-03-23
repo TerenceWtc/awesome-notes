@@ -77,6 +77,7 @@ private static String generation(IUserJwtInfo userIwtInfo, PrivateKey privateKey
 So we can get the `username`, the `id` and the `name` from a token gerenated by the method.  
 The `expiration` stands for how long the token will be expired.
 
+---
 TODO
 - [ ] get info from token
 - [ ] jwt exceptions

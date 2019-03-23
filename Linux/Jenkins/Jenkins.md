@@ -3,7 +3,7 @@
 ## Preparation
 - OS (CentOS 7)
 - Java environment (JAVA_HOME)
-- Download Jenkins rpm file (`jenkins-2.89.3-1.1.noarch.rpm`)
+- [jenkins-2.89.3-1.1.noarch.rpm](https://pkg.jenkins.io/redhat-stable/jenkins-2.89.3-1.1.noarch.rpm)
 
 ## Installation
 ### 1. Import public key
@@ -48,7 +48,7 @@ Finally, it will guide you to create an admin privilege account
 # New a Jenkins Project
 After installation, a dashboard should be displayed.  
 In the left side, there's a menu.  
-![LeftDashboard](https://github.com/TerenceWtc/documents/blob/master/Jenkins/LeftDashboard.png)
+![LeftDashboard](https://github.com/TerenceWtc/documents/blob/master/Linux/Jenkins/LeftDashboard.png)
 
 - Click `New Item`  
   Enter a item name and choose the `FreeStyle project`.

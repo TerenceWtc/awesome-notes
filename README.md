@@ -9,7 +9,8 @@
     - [Lambda](https://github.com/TerenceWtc/documents/blob/master/Springboot/Lambda/Lambda.md)
     - [Stream](https://github.com/TerenceWtc/documents/blob/master/Springboot/Stream/Stream.md)
 - Vue
-    - [Quick Start](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20start/Quick%20Start.md)
+    - [Quick Start](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20Start/Quick%20Start.md)
+    - [Two-way Binding](https://github.com/TerenceWtc/documents/blob/master/Vue/Two%2Dway%20Binding/Two%2Dway%20Binding.md)
 
 TO DO:  
 - [ ] Linux
@@ -31,6 +32,7 @@ TO DO:
     - [x] Stream
 - [ ] Vue
     - [x] Quick Start
+    - [ ] Two-way Binding
     - [ ] Component
     - [ ] Vuex
     - [ ] Axios
