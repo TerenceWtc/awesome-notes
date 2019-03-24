@@ -10,8 +10,10 @@
   > yum install gcc -y
 
 ## Installation
+
 - Unzip
   > tar -zxvf redis-5.0.4.tar.gz
+  
 - Build
   > make MALLOC=libc
 
@@ -33,7 +35,8 @@
 - Start after booting
 
 ## Connect
-> $REDIS_HOME/src/redis-cli
+
+  > $REDIS_HOME/src/redis-cli
 
 ---
 TODO

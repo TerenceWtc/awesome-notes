@@ -31,6 +31,7 @@ books.add(book4);
 ```
 
 ### Foreach
+
 Performs the given action for each element of the collection.  
 eg:  
 Before Java8, we use:
@@ -53,6 +54,7 @@ Book{id=4, name='Comic-A', price=2500.0, author='A'}
 ```
 
 ### Map
+
 Returns a stream consisting of the results of applying the given function to the elements of this stream.
 
 eg:
@@ -89,6 +91,7 @@ eg:
   ```
 
 ### Filter
+
 Returns a stream consisting of the elements of this stream that match the given predicate.  
 eg:
 ```

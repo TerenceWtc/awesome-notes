@@ -1,6 +1,7 @@
 # Solution of Refresh Token
 
 ## Failure Experence
+
 In my first try, there's only an access token.  
 I would generate a new access token when the current one is expired.  
 But once a request with the expired access token was sent to backend service, a `ExpiredJwtException` exception was thrown and it was handled by Spring Framework itself.  
@@ -8,6 +9,7 @@ I can not get the infomation which i need to generate a new token from the expir
 Finally a `403 Forbidden` response returned.
 
 ## What is Refresh Token?
+
 I realized that i thought it too simple.  
 I search the reference infomation online, and found the solution from the [blog](https://blog.csdn.net/qq_24127857/article/details/80818742).
 
@@ -19,10 +21,12 @@ The refresh should have a much longer active period, may be 7 days or longer, so
 This frequency should be acceptable, and the solution is also effective on preventing the privacy.
 
 ## How to
+
 Once a customer signed in, i will generate both an access token and a refresh token in the backend service, and send it to the frontend as response.  
 Storing both token in local storage, and if access token expired, call an api with refresh token to re-generate.
 
 ## Expiration Problem Again
+
 Using refresh token, I solve the problem of entending the token expiration.  
 I had a new try:  
 When a customer raise a request and the access token is expired, I can catch the exception and re-generate a new token and use the new access token to authenticate the request, finally return the result with the new access token.
@@ -34,6 +38,7 @@ The reason is that the request raised by customer would not invoke the method ge
 It is intercepted in the filter, thrown an expired exception, and handled by framework again! ~~(WHAT THE FXXK!)~~
 
 ## Frontend
+
 I found i should judge the expiration before the request was raised.  
 I use `jwt-decode` to judge the expiration, and `axios` for the `ajax` request in frontend service.  
 Using axios' interceptor, i can set access token into the request header, also, i can judge the token and raise a request to get new access token before the customer's request.  

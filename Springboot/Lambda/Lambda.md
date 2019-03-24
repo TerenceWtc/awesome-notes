@@ -1,6 +1,7 @@
 # Lambda
 
 ## Quick Start
+
 Create an interface like:
 ```
 public interface MyMath {

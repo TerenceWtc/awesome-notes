@@ -3,6 +3,7 @@
 ## [Get Ready](https://github.com/TerenceWtc/documents/blob/master/Linux/Redis/Redis.md)
 
 ## Application.yml
+
 ```
 spring:
   redis:
@@ -14,9 +15,11 @@ spring:
 ```
 
 ## Enable Cache
+
 Add annotation `@EnableCaching` in `BackendApplication` which is the main entry.
 
 ## Configuration
+
 ```
 @Configuration
 @EnableCaching
@@ -47,13 +50,17 @@ public class RedisConfig {
 ```
 
 ## Annotations
+
 ### @Cacheable
+
 Put the result into redis cache
 Three optional parameters: `value`, `key`, `condition`
 The defualt generate rule of key in redis is the combination of `value::key`
 
 ### @CachePut
+
 Update the key
 
 ### @CacheEvict
+
 Remove the key

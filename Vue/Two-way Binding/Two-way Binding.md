@@ -1,4 +1,5 @@
 Two-way Binding
 
-Principle  
+## Principle  
+
 Reference to this [blog](https://www.jianshu.com/p/ed19b36bc324).
