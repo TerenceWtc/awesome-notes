@@ -3,6 +3,7 @@
 ## Usage
 
 Example:
+A book entity:
 ```
 public class Book {
 
@@ -17,7 +18,8 @@ public class Book {
   // getter, setter, constructor ...
 }
 ```
-Initialize:
+
+Initialize data:
 ```
 List<Book> books = new ArrayList<>();
 Book book1 = new Book(1, "Magazine-A", 200.0, "A");
@@ -34,24 +36,26 @@ books.add(book4);
 
 Performs the given action for each element of the collection.  
 eg:  
-Before Java8, we use:
-```
-for (Book book : books) {
-    System.out.println(book);
-}
-```
-Now:
-```
-// books.forEach(item -> System.out.println(item));
-books.forEach(System.out::println);
-```
-Console:
-```
-Book{id=1, name='Magazine-A', price=200.0, author='A'}
-Book{id=2, name='Magazine-B', price=300.0, author='B'}
-Book{id=3, name='Comic-C', price=200.0, author='C'}
-Book{id=4, name='Comic-A', price=2500.0, author='A'}
-```
+  Before Java8, we use:
+  ```
+  for (Book book : books) {
+      System.out.println(book);
+  }
+  ```
+
+  Now, we can use:
+  ```
+  // books.forEach(item -> System.out.println(item));
+  books.forEach(System.out::println);
+  ```
+
+  Console:
+  ```
+  Book{id=1, name='Magazine-A', price=200.0, author='A'}
+  Book{id=2, name='Magazine-B', price=300.0, author='B'}
+  Book{id=3, name='Comic-C', price=200.0, author='C'}
+  Book{id=4, name='Comic-A', price=2500.0, author='A'}
+  ```
 
 ### Map
 
@@ -66,6 +70,7 @@ eg:
           .collect(Collectors.toList());
   squares.forEach(System.out::println);
   ```
+
   Console:
   ```
   1
@@ -82,6 +87,7 @@ eg:
           .collect(Collectors.toList());
   names.forEach(System.out::println);
   ```
+
   Console:
   ```
   Magazine-A
@@ -94,28 +100,62 @@ eg:
 
 Returns a stream consisting of the elements of this stream that match the given predicate.  
 eg:
-```
-List<Book> result = books.stream()
-        .filter(item -> "A".equals(item.getAuthor()))
-        .collect(Collectors.toList());
-result.forEach(System.out::println);
-```
-Console:
-```
-Book{id=1, name='Magazine-A', price=200.0, author='A'}
-Book{id=4, name='Comic-A', price=2500.0, author='A'}
-```
+  ```
+  List<Book> result = books.stream()
+          .filter(item -> "A".equals(item.getAuthor()))
+          .collect(Collectors.toList());
+  result.forEach(System.out::println);
+  ```
+
+  Console:
+  ```
+  Book{id=1, name='Magazine-A', price=200.0, author='A'}
+  Book{id=4, name='Comic-A', price=2500.0, author='A'}
+  ```
 
 ### Reduce
 
+Performs a on the elements of this stream.
 eg:
-```
-double sum = books.stream()
-        .map(Book::getPrice)
-        .reduce(0.0, Double::sum);
-System.out.println(sum);
-```
-Console:
-```
-950.0
-```
+  ```
+  double sum = books.stream()
+          .map(Book::getPrice)
+          .reduce(0.0, Double::sum);
+  System.out.println(sum);
+  ```
+
+  Console:
+  ```
+  950.0
+  ```
+
+## Max / Min
+
+Returns the maximum / minimum element of this stream according to the provided.
+eg:
+  - Max
+  ```
+  double max = books.stream()
+          .map(Book::getPrice)
+          .max(Comparator.naturalOrder())
+          .get();
+  System.out.println(max);
+  ```
+
+  Console:
+  ```
+  300.0
+  ```
+
+  - Min
+  ```
+  Book book = books.stream()
+          .min(Comparator.comparingDouble(Book::getPrice))
+          .get();
+  System.out.println(book);
+  ```
+
+  Console:
+  ```
+  Book{id=1, name='Magazine-A', price=200.0, author='A'}
+  ```
