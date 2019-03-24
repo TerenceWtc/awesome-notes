@@ -1,8 +1,11 @@
 # Redis
 
 ## Preparation
-- OS (CentOS 7)  
-- [redis-5.0.4.tar.gz](http://download.redis.io/releases/redis-5.0.4.tar.gz)  
+
+- OS (CentOS 7)
+
+- [redis-5.0.4.tar.gz](http://download.redis.io/releases/redis-5.0.4.tar.gz)
+
 - gcc
   > yum install gcc -y
 
