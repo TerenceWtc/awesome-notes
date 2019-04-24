@@ -1,27 +1,18 @@
-# Quick start a Vue.js project
+# Quick Start
 
-## Preparaion
+Clone the source code.
+> git clone https://github.com/TerenceWtc/frontend-demos.git
 
-- Node.js  
-Download and install the Node.js source code or a pre-built installer from the official website.(https://nodejs.org/en/)
+Navigate to the root folder.
+> cd ./frontend-demos
 
-- npm  
-Npm is already integrated in nodejs.  
-  check the version: (both `-v` and `--version` is OK)
+Useage:
 
-  >node -v  
-  v10.15.1  
-  npm -v  
-  6.4.1
+  - download dependencies
+    > npm install
 
-- Vue-cli  
-  Vue CLI is a full system for rapid Vue.js development.
+  - run in dev
+    > npm run dev
 
-  >npm install -g @vue/cli-init
-
-## Quick start
-
-To create a Vue.js project, you can use the following command.
-  > vue init webpack YOUR_PROJECT_NAME
-
-follow the steps to finish initial process.
+  - build
+    > npm run build

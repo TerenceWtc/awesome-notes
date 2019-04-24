@@ -11,6 +11,7 @@
     - [Stream](https://github.com/TerenceWtc/documents/blob/master/Springboot/Stream/Stream.md)
     - [Redis](https://github.com/TerenceWtc/documents/blob/master/Springboot/Redis/Redis.md)
 - Vue
+    - [Preparation](https://github.com/TerenceWtc/documents/blob/master/Vue/Preparation/Preparation.md)
     - [Quick Start](https://github.com/TerenceWtc/documents/blob/master/Vue/Quick%20Start/Quick%20Start.md)
     - [Two-way Binding](https://github.com/TerenceWtc/documents/blob/master/Vue/Two%2Dway%20Binding/Two%2Dway%20Binding.md)
 
@@ -34,6 +35,7 @@ TO DO:
     - [x] Lambda
     - [x] Stream
     - [x] Redis
+    - [ ] Orika
 - [ ] Vue
     - [x] Quick Start
     - [ ] Two-way Binding

@@ -62,7 +62,7 @@ eg:
 Returns a stream consisting of the results of applying the given function to the elements of this stream.
 
 eg:
-- Square
+  - Square
   ```
   List<Integer> nums = Arrays.asList(1, 2, 3, 4);
   List<Integer> squares = nums.stream()
@@ -79,7 +79,7 @@ eg:
   16
   ```
 
-- Field
+  - Field
   ```
   List<String> names = books.stream()
           // .map(n -> n.getName());
